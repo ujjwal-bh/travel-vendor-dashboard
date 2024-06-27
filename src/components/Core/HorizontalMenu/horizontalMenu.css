@@ -1,0 +1,24 @@
+.horizontal-menu-container{
+    display: flex;
+    /* border-bottom: 2px solid var(--light-300); */
+    overflow-x: scroll;
+}
+
+.horizontal-menu-container .horizontal-menu-item{
+    height: 3rem;
+    min-width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-500);
+    font-size: var(--font-h5);
+    font-weight: var(--font-regular);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.horizontal-menu-container .horizontal-menu-active .horizontal-menu-item{
+    border-top: 4px solid var(--primary-500);
+    border-left: 1px solid var(--primary-500);
+    border-right: 1px solid var(--primary-500);
+    color: var(--primary-500);
+}

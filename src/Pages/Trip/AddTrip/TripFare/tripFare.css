@@ -1,0 +1,77 @@
+.fare-row-wrapper{
+    display: flex;
+    gap: 4rem;
+}
+.fare-row-wrapper .fare-form-wrapper{
+    width: 40%;
+}
+.fare-title{
+    padding: var(--space-s) 0;
+}
+.fare-form-wrapper .fare-form{
+    margin-top: var(--space-m);
+    padding: var(--space-s) var(--space-m);
+    background-color: var(--light-500);
+    border-radius: 1rem;
+}
+
+.fare-form .row-wrapper{
+    align-items: center;
+    margin: var(--space-l) 0;
+    gap: 1rem;
+}
+.fare-form .row-wrapper .row-left{
+    max-width: 10rem;
+    font-size: var(--font-h5);
+    color: var(--dark-500);
+}
+.fare-form .row-wrapper.row-btn-wrapper{
+    padding-top: var(--space-m);
+}
+.fare-form .row-wrapper input{
+    background: var(--light-900);
+}
+.altering-fare-dates{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: var(--space-xl);
+    color: var(--primary-500);
+    font-size: var(--font-h5);
+    text-decoration: underline;
+}
+.altering-fare-dates span{
+    cursor: pointer;
+    margin: var(--space-m) 0;
+}
+.fare-date-picker{
+    width: 100%;
+}
+.fare-date-picker::placeholder{
+    font-size: var(--font-h6);
+    color: var(--grey-100);
+}
+.fare-date-picker-wrapper{
+    display: flex;
+    align-items: center;
+}
+.fare-date-picker-wrapper .row-left{
+    width: 100%;
+    max-width: 10rem;
+    font-size: var(--font-h5);
+}
+.fare-date-picker-wrapper .row-right{
+    width: 100%;
+    position: relative;
+    color: var(--dark-500);
+
+}
+.fare-date-picker-wrapper .row-right svg{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grey-900);
+}
+

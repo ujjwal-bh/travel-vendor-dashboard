@@ -1,0 +1,25 @@
+.multi-select-container-wrapper{
+    width: 100%;
+}
+.multi-select-option-container{
+    display: flex;
+    gap: var(--space-s);
+    flex-wrap: wrap;
+}
+.multi-select-option{
+    width: 100%;
+    max-width: 10rem;
+    display: flex;
+    align-items: center;
+}
+.multi-select-option .checkbox{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--grey-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: var(--space-s);
+    color: var(--dark-500);
+}

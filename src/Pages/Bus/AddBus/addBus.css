@@ -1,0 +1,57 @@
+.add-bus-form {
+  margin-top: var(--space-xl);
+}
+.add-bus-form .form-control {
+    display: flex;
+    align-items: center;
+    margin: var(--space-l) 0;
+  }
+.add-bus-form .form-control .form-left {
+  width: 50%;
+  max-width: 15rem;
+  font-size: var(--font-h5);
+  padding-right: var(--space-m);
+}
+.add-bus-form .form-control .form-right {
+  width: 50%;
+  max-width: 35rem;
+}
+
+/* .add-bus-form .form-control.image-upload-control{
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 47rem;
+    width: 100%;
+}
+.add-bus-form .form-control.image-upload-control .form-left{
+    width: 100%;
+    max-width: 100%;
+    margin: var(--space-m) 0;
+} */
+.add-bus-form .form-control.group-button-container {
+  justify-content: flex-end;
+  max-width: 50rem;
+}
+@media screen and (max-width: 750px) {
+  .add-bus-form .form-control {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .add-bus-form .form-control .form-left {
+    width: 100%;
+    margin-bottom: var(--space-s);
+  }
+  .add-bus-form .form-control .form-right {
+    width: 100%;
+  }
+  .add-bus-form .form-control input {
+    width: 100% !important;
+  }
+  .add-bus-form .form-control.group-button-container {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .add-bus-form .form-control.group-button-container button {
+    width: 100% !important;
+  }
+}

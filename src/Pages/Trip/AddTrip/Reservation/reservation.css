@@ -1,0 +1,28 @@
+.reservation-seats-wrapper {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.appendix-outer {
+  display: flex;
+  gap: 2rem;
+  margin: 0 0 var(--space-m) 0;
+}
+.appendix-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.appendix-wrapper .box {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.25rem;
+}
+
+.appendix-wrapper .box.ladies {
+  background-color: pink;
+}
+.appendix-wrapper .box.vendor {
+  background-color: var(--grey-100);
+}

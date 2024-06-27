@@ -1,0 +1,15 @@
+.title-wrapper{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.title-wrapper .back-icon{
+    font-size: var(--font-h4);
+    color: var(--grey-900);
+    margin-right: var(--space-l);
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.title-wrapper .back-icon:hover{
+    color: var(--grey-500);
+}

@@ -1,0 +1,19 @@
+
+.trip-table-outer .table-content-row{
+    cursor: text !important;
+}
+.trip-table-outer .small-row-val-title{
+   opacity: 0;
+   width: 2rem !important;
+}
+.trip-table-outer .small-row-val{
+    font-size: var(--font-h4);
+    width: 2rem !important;
+    cursor: pointer;
+}
+.trip-table-outer .table-content-row:hover{
+    background-color: unset;
+}
+.trip-table-outer .table-content-row .row-content.btn-content{
+    padding-right: 1rem;
+}

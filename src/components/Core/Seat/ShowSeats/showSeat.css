@@ -1,0 +1,102 @@
+.show-seats-outer-wrapper{
+    border: 1px solid var(--grey-100);
+    padding: var(--space-s);
+    display: flex;
+    width: fit-content;
+    margin: var(--space-s) 0 var(--space-l) 0;
+
+}
+.show-seats-outer-wrapper .steering{
+    margin-right: var(--space-l);
+    width: 4rem;
+    height: 4rem;
+}
+
+.show-seats-outer-wrapper .steering img{
+    height: 4rem;
+    width: 4rem;
+    /* width: 3rem; */
+}
+.show-seats-wrapper{
+    width: fit-content;
+    border-radius: 0.25rem;
+    row-gap: 0.75rem;
+    column-gap: 0.75rem;
+    display: grid;
+
+}
+.show-single-seat{
+border: 1px solid var(--grey-100);
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+min-width: 2rem;
+cursor: pointer;
+
+}
+.seater-seat{
+width: 100%;
+height: 100%;
+}
+.seater-abs{
+    width: 80%;
+    position: absolute;
+    height: 0.25rem;
+    border: 1px solid var(--grey-100);
+    right: 0;
+
+}
+.top-seater-abs{
+    top: -0.25rem;
+}
+.bottom-seater-abs{
+    bottom: -0.25rem;
+}
+.sleeper-abs{
+    position: absolute;
+    border: 1px solid var(--grey-100);
+}
+.sleeper-seat.horizontal{
+   max-width: 6rem;
+   min-width: 5rem;
+}
+.sleeper-seat.vertical{
+    max-height: 6rem;
+    min-height: 5rem;
+}
+.sleeper-seat.horizontal .sleeper-abs{
+    height: 80%;
+    width: 0.25rem;
+    right: 0.25rem;
+}
+.sleeper-seat.vertical .sleeper-abs{
+    top: 0.25rem;
+    width: 80%;
+    height: 0.25rem;
+}
+.select-seat-wrapper{
+    height: auto;
+    /* background-color: red; */
+    padding-top: var(--space-l);
+    width: 100%;
+    max-width: 25rem;
+}
+/* .seat-reservation-option-select{
+    max-width: 25rem;
+} */
+.show-single-seat.selected{
+    background-color: var(--light-500);
+}
+
+.show-single-seat.ladies{
+    background-color: pink;
+}
+.show-single-seat.vendor{
+    background-color: var(--grey-500);
+    color: var(--light-900);
+}
+.row-btn-wrapper{
+    display: flex;
+    gap: 0.5rem;
+}

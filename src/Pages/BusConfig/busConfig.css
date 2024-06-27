@@ -1,0 +1,10 @@
+.bus-table-cover{
+    margin-top: var(--space-xl);
+}
+.table-content-row{
+    color: var(--grey-900);
+    transition: all 300ms ease;
+}
+.table-content-row:hover{
+    background-color: var(--light-500);
+}

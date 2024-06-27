@@ -1,0 +1,18 @@
+.trip-search-container{
+    display: flex;
+    gap: 1rem;
+}
+.trip-search-container .form-control{
+    width: 100%;
+}
+.trip-search-container .form-control.btn-control{
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 750px) {
+    .trip-search-container{
+        flex-direction: column;
+    }
+}

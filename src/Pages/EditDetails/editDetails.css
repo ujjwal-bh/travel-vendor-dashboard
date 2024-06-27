@@ -1,0 +1,49 @@
+.edit-detail-form {
+  margin-top: var(--space-xl);
+}
+.edit-detail-form .form-control .form-left {
+  width: 50%;
+  max-width: 20rem;
+  font-size: var(--font-h5);
+}
+.edit-detail-form .form-control.show-img img{
+  max-width: 20rem;
+  width: 100%;
+
+}
+.edit-detail-form .form-control .form-right {
+  width: 50%;
+  max-width: 35rem;
+}
+.edit-detail-form .form-control {
+  display: flex;
+  align-items: center;
+  margin: var(--space-l) 0;
+}
+.edit-detail-form .form-control.group-button-container {
+  justify-content: flex-end;
+  max-width: 55rem;
+}
+@media screen and (max-width: 750px) {
+  .edit-detail-form .form-control {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .edit-detail-form .form-control .form-left {
+    width: 100%;
+    margin-bottom: var(--space-s);
+  }
+  .edit-detail-form .form-control .form-right {
+    width: 100%;
+  }
+  .edit-detail-form .form-control input{
+    width: 100% !important;
+  }
+  .edit-detail-form .form-control.group-button-container{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .edit-detail-form .form-control.group-button-container button{
+    width: 100% !important;
+  }
+}

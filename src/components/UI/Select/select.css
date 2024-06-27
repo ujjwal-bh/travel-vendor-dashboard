@@ -1,0 +1,55 @@
+.select-container-wrapper {
+  position: relative;
+}
+.select-container {
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  /* border: 1px solid var(--grey-100); */
+}
+.select-container div{
+  width: 100%;
+}
+.select-container svg {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+.option-wrapper {
+  display: none;
+  background-color: var(--light-500);
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  max-height: 15rem;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 4px var(--grey-100);
+  z-index: 10;
+}
+.option-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.option-wrapper.active {
+  display: block;
+}
+.select-option {
+  cursor: pointer;
+  border-bottom: 1px solid var(--light-100);
+}
+.select-option.active {
+  background-color: var(--primary-500);
+  color: var(--light-900);
+}
+.select-option:hover {
+  background-color: var(--primary-500);
+  color: var(--light-900);
+  border: none;
+}

@@ -1,0 +1,41 @@
+.trip-form-wrapper{
+    padding: var(--space-l);
+    height: fit-content;
+    min-height: 45rem;
+    border: 1px solid var(--light-100);
+    position: relative;
+    padding-bottom: 10rem;
+}
+.trip-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-l);
+    font-size: var(--font-h5);
+    color: var(--dark-500);
+    gap: 1rem;
+}
+.trip-row .trip-row-left{
+    max-width: 30rem;
+    width: 100%;
+}
+.trip-row .trip-row-right{
+    width: 100%;
+    max-width: 30rem;
+}
+.trip-row .trip-row-additional{
+    width: 100%;
+    max-width: 15rem;
+
+}
+.trip-row-right.with-content{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.trip-row.btn-group-wrapper{
+    gap: 0.5rem ;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}

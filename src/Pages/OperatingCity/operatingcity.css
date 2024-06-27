@@ -1,0 +1,46 @@
+.top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.operating-city-main {
+  margin-top: 2rem;
+}
+.absolute-select {
+  display: flex;
+  gap: 1rem;
+}
+
+.absolute-select .select-outer {
+  width: 100%;
+}
+.select-outer label {
+  padding: 1rem 0;
+  background-color: red;
+}
+.form-btn-control{
+  display: flex;
+  width: 100%;
+  gap: 1rem ;
+}
+
+.absolute-message{
+  background-color: var(--error-500);
+  color: var(--light-900);
+  padding: var(--space-m);
+  position: absolute;
+  top: -5rem;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .top-title{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .top-title button{
+    margin-top: var(--space-s);
+    width: 100% !important;
+  }
+}

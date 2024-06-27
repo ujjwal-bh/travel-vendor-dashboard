@@ -1,0 +1,47 @@
+.bus-types-form-wrapper{
+    margin-top: var(--space-l);
+    color: var(--dark-500);
+}
+.bus-types-form-wrapper .form-control{
+    margin-bottom: var(--space-l);
+    width: 50%;
+    max-width: 25rem;
+}
+.bus-types-form-wrapper .row-wrapper.other-details-wrapper{
+    width: 100%;
+    max-width: 54rem;
+}
+.row-wrapper.other-details-wrapper .form-control{
+    max-width: 100%;
+
+    width: 100%;
+}
+
+.bus-types-form-wrapper .row-wrapper{
+    gap: var(--space-xl);
+}
+.bus-types-seat-container{
+    margin: var(--space-xl) 0;
+}
+.bus-type-button-container{
+    display: flex;
+    gap: 1rem  ;
+}
+.bus-type-warning-text{
+    margin-bottom: var(--space-l);
+}
+.preview-seats-wrapper{
+    margin: var(--space-l) 0;
+}
+
+@media screen and (max-width: 750px) {
+    .bus-types-form-wrapper .row-wrapper{
+        flex-direction: column;
+        gap: 0;
+    }
+    .bus-types-form-wrapper .form-control{
+        margin-bottom: var(--space-l);
+        width: 100%;
+        max-width: 100%;
+    }
+}

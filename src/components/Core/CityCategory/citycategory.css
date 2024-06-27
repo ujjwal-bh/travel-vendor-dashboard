@@ -1,0 +1,5 @@
+.city-list{
+    text-decoration: underline;
+    display: flex;
+    gap: 2rem;
+}

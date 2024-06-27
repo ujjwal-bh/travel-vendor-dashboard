@@ -1,0 +1,15 @@
+.trip-route-main{
+    margin-top: var(--space-m);
+}
+.trip-row-right.location-right{
+    max-width: 100%;
+    gap: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-500);
+    display: flex;
+
+
+}
+.drop-address-outer-wrapper{
+    margin-top: var(--space-l);
+}
